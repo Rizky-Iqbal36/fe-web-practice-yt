@@ -1,10 +1,12 @@
 import "./App.css";
+import NavBar from "./components/NavBar";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <h1>MAGIC</h1>
-    </div>
+    <Router>
+      <NavBar />
+    </Router>
   );
 }
 
