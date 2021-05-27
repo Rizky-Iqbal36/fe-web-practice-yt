@@ -4,9 +4,9 @@ import { Link } from "react-scroll";
 export const Button = styled(Link)((props) => ({
   borderRadius: "50px",
   background: props.primary ? "#01BF71" : "#010606",
-  padding: props.big ? "14px 48px" : "12px 30px",
+  padding: props.big ? "24px 64px" : "18px 56px",
   color: props.dark ? "#010606" : "#fff",
-  fontSize: props.fontBig ? "20px" : "16px",
+  fontSize: props.fontBig ? "32px" : "28px",
   whiteSpace: "nowrap",
   cursor: "pointer",
   display: "flex",

@@ -35,7 +35,7 @@ const HeroSection = () => {
         <HeroH1>--unknown wizard</HeroH1>
         <HeroBtnWrapper>
           <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
-            Get started{hover ? <ArrowForward /> : <ArrowRight />}
+            Get started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
