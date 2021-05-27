@@ -16,6 +16,7 @@ export const Button = styled(Link)((props) => ({
 
   ":hover": {
     transition: "all 0.2s ease-in-out",
-    background: props.primary ? "#fff" : "#01BF71",
+    background: props.primary ? "#010606" : "#01BF71",
+    color: props.dark ? "#fff" : "#010606",
   },
 }));

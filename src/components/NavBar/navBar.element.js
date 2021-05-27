@@ -26,7 +26,7 @@ export const NavBarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1500px;
+  max-width: 1700px;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -70,11 +70,7 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-left: -36px;
-
-  @media screen and (min-width: 1200px) {
-    margin-right: 180px;
-  }
+  margin-left: -225px;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -95,8 +91,13 @@ export const NavLinks = styled(LinkS)`
   height: 100%;
   cursor: pointer;
 
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    border-bottom: 5px solid #01bf71;
+  }
+
   &.active {
-    border-bottom: 3px solid #01bf71;
+    color: #01bf71;
   }
 `;
 
