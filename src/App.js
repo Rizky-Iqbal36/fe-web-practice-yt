@@ -2,14 +2,11 @@ import "./App.css";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
-import NavBar from "./components/NavBar";
-import SideBar from "./components/SideBar";
-
+import Home from "./pages/index";
 function App() {
   return (
     <Router>
-      <NavBar />
-      <SideBar />
+      <Home />
     </Router>
   );
 }
