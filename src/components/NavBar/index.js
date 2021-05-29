@@ -25,7 +25,7 @@ const NavBar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks href="#japan">にゃん</NavLinks>
+              <NavLinks href="#japan">nyan</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks href="#china">Miao</NavLinks>

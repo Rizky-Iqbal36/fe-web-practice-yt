@@ -48,6 +48,7 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
   color: #01bf71;
+  width: 130%;
   font-size: 48px;
   line-height: 28px;
   font-weight: 700;
@@ -71,6 +72,7 @@ export const Heading = styled.h1((props) => ({
   fontSize: "48px",
   lineHeight: 1.1,
   fontWeight: 600,
+  width: "120%",
   color: props.lightText ? "#f7f8fa" : "#010606",
 
   "@media screen and (max-width: 480px)": {

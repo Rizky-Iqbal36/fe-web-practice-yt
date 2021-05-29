@@ -1,10 +1,11 @@
+//https://www.boredpanda.com/animal-sounds-different-languages-james-chapman/?utm_source=google&utm_medium=organic&utm_campaign=organic
 export const HomeObj = [
   {
     id: "japan",
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: "にゃん",
+    topLine: "Japanese - nyan (にゃん)",
     symbol: "meong",
     headline: "in Japanese",
     description:
@@ -25,8 +26,8 @@ export const HomeObj = [
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: "miao (喵)",
-    symbol: "にゃん",
+    topLine: "Chinese - miao (喵)",
+    symbol: "nyan (にゃん)",
     headline: "in Chinese",
     description:
       "The word for cat practically mewls itself: it’s māo 猫, which is also a close homophone of the word for fur or hair, máo 毛, all of which is just as ubiquitous as their miāoing. In addition to meowing, cats can also cèng 蹭, which is when they headbutt/rub up against you (or a table, or a door, or anything as yet unmarked).",
@@ -46,9 +47,9 @@ export const HomeObj = [
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: "miyāʾūṉ",
+    topLine: "Urdu - miyāʾūṉ (میاٴوں)",
     symbol: "miao (喵)",
-    headline: "in urdu",
+    headline: "in urdu (pakistan)",
     description:
       'Meowing meaning in Urdu is Miyaun. Similar words of Meowing are also commonly used in daily talk like as Meow. Pronunciation of Meowing in roman Urdu is "Miyaun" and Translation of Meowing in Urdu writing script is میاٴوں.',
     buttonLabel: "Learn more",
@@ -67,14 +68,14 @@ export const HomeObj = [
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: "miyau",
+    topLine: "Russian - miyau (мяу)",
     symbol: "miyāʾūṉ (میاٴوں)",
     headline: "in russian",
     description: `How do cats sound in russian?, yes it's miyau (мяу)`,
     buttonLabel: "Learn more",
     imgStart: false,
-    img: require("../../assets/images/cat-3.svg"),
-    alt: "cat-3",
+    img: require("../../assets/images/cat-4.svg"),
+    alt: "cat-4",
     dark: false,
     primary: false,
     darkText: true,
