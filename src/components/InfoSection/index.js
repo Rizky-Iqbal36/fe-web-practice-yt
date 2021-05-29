@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   BtnWrap,
   Column1,
@@ -12,6 +12,7 @@ import {
   Subtitle,
   TextWrapper,
   TopLine,
+  Symbol,
 } from "./infoSection.element";
 import { Button } from "../button.element";
 
@@ -30,19 +31,46 @@ const InfoSection = ({
   dark,
   primary,
   darkText,
+  padding,
+  goto,
+  symbol,
+  section,
 }) => {
+  const [hover, setHover] = useState(false);
+
+  const onHover = () => {
+    setHover(!hover);
+  };
   return (
     <>
-      <InfoContainer lightBg={lightBg} id={id}>
+      <InfoContainer lightBg={lightBg} padding={padding} id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
             <Column1 imgStart={imgStart}>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
+                <Heading lightText={lightText}>
+                  <Symbol
+                    onMouseEnter={onHover}
+                    onMouseLeave={onHover}
+                    isHover={hover}
+                    href={section}
+                    lightText={lightText}
+                  >
+                    {symbol}
+                  </Symbol>
+                  {` ${headline}`}
+                </Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button to="home">{buttonLabel}</Button>
+                  <Button
+                    primary={primary}
+                    dark={dark}
+                    href={goto}
+                    target="_blank"
+                  >
+                    {buttonLabel}
+                  </Button>
                 </BtnWrap>
               </TextWrapper>
             </Column1>

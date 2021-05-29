@@ -3,23 +3,20 @@ import styled from "styled-components";
 export const InfoContainer = styled.div((props) => ({
   color: "#fff",
   background: props.lightBg ? "#f9f9f9" : "#010606",
-  padding: "117px 0",
-
-  "@media screen and (max-width: 768px)": {
-    padding: "100px 0",
-  },
+  padding: `${props.padding || 117}px 0`,
+  scrollMarginTop: "79px",
 }));
 
-export const InfoWrapper = styled.div`
-  display: grid;
-  z-index: 1;
-  height: 100% auto;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 24px;
-  justify-content: center;
-`;
+export const InfoWrapper = styled.div((props) => ({
+  display: "grid",
+  zIndex: 1,
+  height: "100% auto",
+  width: "100%",
+  marginRight: "auto",
+  marginLeft: "auto",
+  padding: "0 24px",
+  justifyContent: "center",
+}));
 
 export const InfoRow = styled.div((props) => ({
   display: "grid",
@@ -34,19 +31,13 @@ export const InfoRow = styled.div((props) => ({
 }));
 
 export const Column1 = styled.div((props) => ({
-  marginBottom: "15px",
-  padding: "0 15px",
+  margin: "0 15px",
   gridArea: "col1",
-  marginRight: props.imgStart ? "0" : "300px",
-  marginLeft: props.imgStart ? "200px" : "0",
 }));
 
 export const Column2 = styled.div((props) => ({
-  marginBottom: "15px",
-  padding: "0 15px",
+  margin: "0 15px",
   gridArea: "col2",
-  marginLeft: props.imgStart ? "0" : "150px",
-  marginRight: props.imgStart ? "300px" : "0",
 }));
 
 export const TextWrapper = styled.div`
@@ -63,7 +54,17 @@ export const TopLine = styled.p`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
+  }
 `;
+
+export const Symbol = styled.a((props) => ({
+  cursor: "pointer",
+  textDecoration: "none",
+  color: props.isHover ? "#50c878" : props.lightText ? "#f7f8fa" : "#010606",
+}));
 
 export const Heading = styled.h1((props) => ({
   marginBottom: "24px",
@@ -83,6 +84,7 @@ export const Subtitle = styled.p((props) => ({
   fontSize: "28px",
   lineHeight: "32px",
   color: props.darkText ? "#010606" : "#fff",
+  textAlign: "justify",
 }));
 
 export const BtnWrap = styled.div`
@@ -96,7 +98,7 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 140%;
+  width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
 `;

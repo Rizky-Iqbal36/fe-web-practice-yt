@@ -18,21 +18,21 @@ const SideBar = ({ isOpen, toggle }) => {
       </Icon>
       <SideBarWrapper>
         <SideBarMenu>
-          <SideBarLink to="about" onClick={toggle}>
-            About
+          <SideBarLink to="japan" onClick={toggle}>
+            にゃん
           </SideBarLink>
-          <SideBarLink to="discover" onClick={toggle}>
-            Discover
+          <SideBarLink to="china" onClick={toggle}>
+            miao
           </SideBarLink>
-          <SideBarLink to="services" onClick={toggle}>
-            Services
+          <SideBarLink to="urdu" onClick={toggle}>
+            miyāʾūṉ
           </SideBarLink>
-          <SideBarLink to="signup" onClick={toggle}>
-            Sign Up
+          <SideBarLink to="rusia" onClick={toggle}>
+            miyau
           </SideBarLink>
         </SideBarMenu>
         <SideBarBtnWrap>
-          <SideBarRoute to="/signin">Sign In</SideBarRoute>
+          <SideBarRoute to="/indonesia">meong</SideBarRoute>
         </SideBarBtnWrap>
       </SideBarWrapper>
     </SideBarContainer>

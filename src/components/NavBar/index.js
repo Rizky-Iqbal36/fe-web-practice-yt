@@ -11,32 +11,34 @@ import {
   NavBtn,
   NavBtnLink,
 } from "./navBar.element";
+// https://www.yahoo.com/news/15-words-kitten-other-languages-232125829.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAIv4Fv8wQCn1GCClEw6Rd_pth5aMbg2pe9DrII8eWuOrWmWHrVbAuv_xkrq2Bm28j4QiY4NxKWE1eW2jWvp_p7knTj1xTgRacixUCLOgdQsqmmnyTUQnY9RUOBIVX3RzUMsViXLKtAogniMk7Usxk_JNwJ75KjJrxexwAPVUC3cO
+// https://en.wikipedia.org/wiki/Meow#Spelling
 
 const NavBar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavBarContainer>
-          <NavLogo to="/">Stardenburdenhardenbart</NavLogo>
+          <NavLogo href="#home">Stardenburdenhardenbart</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+              <NavLinks href="#japan">にゃん</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="discover">Discover</NavLinks>
+              <NavLinks href="#china">Miao</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="services">Services</NavLinks>
+              <NavLinks href="#urdu">Miyāʾūṉ</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="signup">Sign Up</NavLinks>
+              <NavLinks href="#rusia">Miyau</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signin">Sign In</NavBtnLink>
+            <NavBtnLink to="/indonesia">Meong</NavBtnLink>
           </NavBtn>
         </NavBarContainer>
       </Nav>
