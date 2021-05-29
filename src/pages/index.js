@@ -18,12 +18,14 @@ const Home = () => {
     <>
       <SideBar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
-      <HeroSection />
-      <InfoSection {...HomeObj[0]} />
-      <InfoSection {...HomeObj[1]} />
-      <InfoSection {...HomeObj[2]} />
-      <InfoSection {...HomeObj[3]} />
-      <OnomatopoeiaSection />
+      <div style={{ overflowX: "hidden" }}>
+        <HeroSection />
+        <InfoSection {...HomeObj[0]} />
+        <InfoSection {...HomeObj[1]} />
+        <InfoSection {...HomeObj[2]} />
+        <InfoSection {...HomeObj[3]} />
+        <OnomatopoeiaSection />
+      </div>
     </>
   );
 };

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const OnomatopoeiaContainer = styled.div`
-  height: 722px;
+  height: 765px;
   display: flex;
   flex-direction: column;
   justify-content: center;
