@@ -1,4 +1,4 @@
-export const dataCarousel = [
+export const dataOnomatopoeia = [
   {
     id: "japan",
     topLine: "Japanese - nyan (にゃん)",

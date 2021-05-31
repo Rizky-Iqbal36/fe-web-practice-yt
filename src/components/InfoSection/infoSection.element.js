@@ -23,6 +23,7 @@ export const InfoRow = styled.div((props) => ({
   gridAutoColumns: "minmax(auto,1fr)",
   alignItems: "center",
   gridTemplateAreas: props.imgStart ? `'col2 col1'` : `'col1 col2'`,
+
   "@media screen and (max-width: 768px)": {
     gridTemplateAreas: props.imgStart
       ? `'col1' 'col2'`
@@ -60,12 +61,6 @@ export const TopLine = styled.p`
     font-size: 32px;
   }
 `;
-
-export const Symbol = styled.a((props) => ({
-  cursor: "pointer",
-  textDecoration: "none",
-  color: props.isHover ? "#50c878" : props.lightText ? "#f7f8fa" : "#010606",
-}));
 
 export const Heading = styled.h1((props) => ({
   marginBottom: "24px",

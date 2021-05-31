@@ -26,16 +26,19 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>MAGIC SPELL</HeroH1>
-        <HeroP>a perfect place for you who want to use magic</HeroP>
-        <HeroP>build your own world and controll it with your own rules</HeroP>
-        <HeroH1>
-          --I'm the one who take the controll of what i want to do--
-        </HeroH1>
-        <HeroH1>--unknown wizard</HeroH1>
+        <HeroH1>STARDENBURDENHARDENBART!!!</HeroH1>
+        <HeroP>Yes, it's about cats</HeroP>
+        <HeroH1>--you not see the video yet?--</HeroH1>
+        <HeroH1>Pathetic</HeroH1>
         <HeroBtnWrapper>
-          <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
-            Get started {hover ? <ArrowForward /> : <ArrowRight />}
+          <Button
+            to="signup"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            href="https://www.youtube.com/watch?v=Mev7iy6gwIQ"
+            target="_blank"
+          >
+            See the video {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

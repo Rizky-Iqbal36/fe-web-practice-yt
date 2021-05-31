@@ -1,26 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   OnomatopoeiaCard,
   OnomatopoeiaContainer,
-  OnomatopoeiaH1,
   OnomatopoeiaH2,
   OnomatopoeiaIcon,
-  // OnomatopoeiaP,
+  OnomatopoeiaDesc,
   OnomatopoeiaWrapper,
+  // OnomatopoeiaH1
+  // OnomatopoeiaP
 } from "./onomatopoeiaSection.element";
-import { dataCarousel } from "./data";
+import { dataOnomatopoeia } from "./data";
+import { TextButton } from "../button.element";
 
 const CarouselSection = () => {
+  const [hover, setHover] = useState(false);
+
+  const onHover = () => {
+    setHover(!hover);
+  };
   return (
     <OnomatopoeiaContainer id="onomatopoeia">
-      <OnomatopoeiaH1>ONOMATOPOEIA</OnomatopoeiaH1>
-      <h2 style={{ color: "white", marginBottom: "36px" }}>
-        How cats sound on different languages
-      </h2>
+      <TextButton
+        onMouseEnter={onHover}
+        onMouseLeave={onHover}
+        isHover={hover}
+        href="https://en.wikipedia.org/wiki/Onomatopoeia"
+        target="_blank"
+        lightText={true}
+        fontSize={2.5}
+      >
+        ONOMATOPOEIA
+      </TextButton>
+      <OnomatopoeiaDesc>How cats sound on different languages</OnomatopoeiaDesc>
       <OnomatopoeiaWrapper>
-        {dataCarousel.map((item) => {
+        {dataOnomatopoeia.map((item) => {
           return (
-            <OnomatopoeiaCard href={`#${item.id}`}>
+            <OnomatopoeiaCard href={`#${item.id}`} key={item.id}>
               <OnomatopoeiaIcon src={item.image.default} />
               <OnomatopoeiaH2>{item.topLine}</OnomatopoeiaH2>
               {/* <CarouselP>Magic.</CarouselP> */}

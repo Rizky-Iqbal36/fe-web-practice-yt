@@ -12,9 +12,8 @@ import {
   Subtitle,
   TextWrapper,
   TopLine,
-  Symbol,
 } from "./infoSection.element";
-import { Button } from "../button.element";
+import { Button, TextButton } from "../button.element";
 
 const InfoSection = ({
   id,
@@ -50,7 +49,7 @@ const InfoSection = ({
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>
-                  <Symbol
+                  <TextButton
                     onMouseEnter={onHover}
                     onMouseLeave={onHover}
                     isHover={hover}
@@ -58,7 +57,7 @@ const InfoSection = ({
                     lightText={lightText}
                   >
                     {symbol}
-                  </Symbol>
+                  </TextButton>
                   {` ${headline}`}
                 </Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>

@@ -13,7 +13,7 @@ export const OnomatopoeiaContainer = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    height: 1600px;
+    height: 1800px;
   }
 `;
 
@@ -45,6 +45,12 @@ export const OnomatopoeiaH1 = styled.h1`
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }
+`;
+
+export const OnomatopoeiaDesc = styled.h2`
+  color: white;
+  margin-bottom: 36px;
+  text-align: center;
 `;
 
 export const OnomatopoeiaCard = styled.a`
