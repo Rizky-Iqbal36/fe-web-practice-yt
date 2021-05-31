@@ -9,11 +9,11 @@ export const OnomatopoeiaContainer = styled.div`
   background: #010606;
 
   @media screen and (max-width: 1000px) {
-    height: 950px;
+    height: 1100px;
   }
 
   @media screen and (max-width: 768px) {
-    height: 1400px;
+    height: 1800px;
   }
 `;
 

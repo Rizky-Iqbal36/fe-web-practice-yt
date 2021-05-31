@@ -28,7 +28,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>STARDENBURDENHARDENBART!!!</HeroH1>
         <HeroP>Yes, it's about cats, especially how they sound like</HeroP>
-        <HeroH1>--You not see the video yet?--</HeroH1>
+        <HeroH1>--You haven't seen the video yet?--</HeroH1>
         <HeroH1>Pathetic</HeroH1>
         <HeroBtnWrapper>
           <Button

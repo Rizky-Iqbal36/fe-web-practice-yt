@@ -30,7 +30,7 @@ export const HeroContainer = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    height: 1000px;
+    height: 1200px;
   }
 `;
 
