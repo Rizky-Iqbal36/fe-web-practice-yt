@@ -38,7 +38,7 @@ const NavBar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/indonesia">Meong</NavBtnLink>
+            <NavBtnLink to="#indonesia">Meong</NavBtnLink>
           </NavBtn>
         </NavBarContainer>
       </Nav>

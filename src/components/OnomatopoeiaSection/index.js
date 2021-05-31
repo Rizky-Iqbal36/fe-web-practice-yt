@@ -6,8 +6,6 @@ import {
   OnomatopoeiaIcon,
   OnomatopoeiaDesc,
   OnomatopoeiaWrapper,
-  // OnomatopoeiaH1
-  // OnomatopoeiaP
 } from "./onomatopoeiaSection.element";
 import { dataOnomatopoeia } from "./data";
 import { TextButton } from "../button.element";
@@ -38,7 +36,6 @@ const CarouselSection = () => {
             <OnomatopoeiaCard href={`#${item.id}`} key={item.id}>
               <OnomatopoeiaIcon src={item.image.default} />
               <OnomatopoeiaH2>{item.topLine}</OnomatopoeiaH2>
-              {/* <CarouselP>Magic.</CarouselP> */}
             </OnomatopoeiaCard>
           );
         })}

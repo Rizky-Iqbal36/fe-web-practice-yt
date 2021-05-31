@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const OnomatopoeiaContainer = styled.div`
-  height: 765px;
+  height: 725px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,11 +9,11 @@ export const OnomatopoeiaContainer = styled.div`
   background: #010606;
 
   @media screen and (max-width: 1000px) {
-    height: 900px;
+    height: 950px;
   }
 
   @media screen and (max-width: 768px) {
-    height: 1800px;
+    height: 1700px;
   }
 `;
 

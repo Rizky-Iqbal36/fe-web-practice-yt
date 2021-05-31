@@ -38,6 +38,8 @@ export const TextButton = styled.a((props) => ({
   cursor: "pointer",
   textDecoration: "none",
   color: props.isHover ? "#50c878" : props.lightText ? "#f7f8fa" : "#010606",
+  margin: "20px 0",
+
   "@media screen and (max-width: 480px)": {
     fontSize: `${props.fontSize - 0.5}rem` || null,
   },

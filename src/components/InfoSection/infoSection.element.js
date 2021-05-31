@@ -5,6 +5,10 @@ export const InfoContainer = styled.div((props) => ({
   background: props.lightBg ? "#f9f9f9" : "#010606",
   padding: `${props.padding || 117}px 0`,
   scrollMarginTop: "79px",
+
+  "@media screen and (max-width: 768px)": {
+    padding: `60px 0`,
+  },
 }));
 
 export const InfoWrapper = styled.div((props) => ({

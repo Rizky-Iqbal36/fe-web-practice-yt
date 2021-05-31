@@ -67,12 +67,28 @@ export const HeroH1 = styled.h1`
   word-break: break-all;
 
   @media screen and (max-width: 768px) {
+    font-size: 32px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 28px;
+  }
+
+  @media screen and (max-width: 420px) {
+    font-size: 22px;
+  }
+
+  @media screen and (max-width: 360px) {
+    font-size: 18px;
+  }
+
+  /* @media screen and (max-width: 768px) {
     font-size: 38px;
   }
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
-  }
+  } */
 `;
 
 export const HeroP = styled.p`
