@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import {
   Nav,
@@ -15,9 +15,18 @@ import {
 // https://en.wikipedia.org/wiki/Meow#Spelling
 
 const NavBar = ({ toggle }) => {
+  const [scrollNav, setScrollNav] = useState(false);
+
+  const changeNav = () => {
+    window.scrollY >= 560 ? setScrollNav(true) : setScrollNav(false);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeNav);
+  }, []);
   return (
     <>
-      <Nav>
+      <Nav scrollNav={scrollNav}>
         <NavBarContainer>
           <NavLogo href="#home">Stardenburdenhardenbart</NavLogo>
           <MobileIcon onClick={toggle}>
