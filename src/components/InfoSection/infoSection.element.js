@@ -7,7 +7,7 @@ export const InfoContainer = styled.div((props) => ({
   scrollMarginTop: "79px",
 
   "@media screen and (max-width: 768px)": {
-    padding: `60px 0`,
+    padding: `${props.padding - props.padding * (20 / 100) || 100}px 0`,
   },
 }));
 

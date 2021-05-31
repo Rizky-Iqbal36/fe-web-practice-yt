@@ -13,7 +13,7 @@ export const OnomatopoeiaContainer = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    height: 1700px;
+    height: 1400px;
   }
 `;
 
