@@ -47,7 +47,7 @@ const InfoSection = ({
           <InfoRow imgStart={imgStart}>
             <Column1 imgStart={imgStart}>
               <TextWrapper>
-                <TopLine>{topLine}</TopLine>
+                <TopLine padding={padding}>{topLine}</TopLine>
                 <Heading lightText={lightText}>
                   <TextButton
                     onMouseEnter={onHover}

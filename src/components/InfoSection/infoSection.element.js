@@ -5,10 +5,6 @@ export const InfoContainer = styled.div((props) => ({
   background: props.lightBg ? "#f9f9f9" : "#010606",
   padding: `${props.padding || 117}px 0`,
   scrollMarginTop: "79px",
-
-  "@media screen and (max-width: 768px)": {
-    padding: `${props.padding - props.padding * (20 / 100) || 100}px 0`,
-  },
 }));
 
 export const InfoWrapper = styled.div((props) => ({
@@ -51,20 +47,25 @@ export const TextWrapper = styled.div`
   padding-bottom: 60px;
 `;
 
-export const TopLine = styled.p`
-  color: #01bf71;
-  width: 130%;
-  font-size: 48px;
-  line-height: 28px;
-  font-weight: 700;
-  letter-spacing: 1.4px;
-  text-transform: uppercase;
-  margin-bottom: 16px;
+export const TopLine = styled.p((props) => ({
+  color: "#01bf71",
+  width: "130%",
+  fontSize: "48px",
+  lineHeight: "28px",
+  fontWeight: 700,
+  letterSpacing: "1.4px",
+  textTransform: "uppercase",
+  marginBottom: "16px",
 
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
-  }
-`;
+  "@media screen and (max-width: 768px)": {
+    marginTop: `-${props.padding * (90 / 100) || 100}px`,
+    marginBottom: "24px",
+  },
+
+  "@media screen and (max-width: 480px)": {
+    fontSize: "32px",
+  },
+}));
 
 export const Heading = styled.h1((props) => ({
   marginBottom: "24px",
@@ -86,6 +87,10 @@ export const Subtitle = styled.p((props) => ({
   lineHeight: "32px",
   color: props.darkText ? "#010606" : "#fff",
   textAlign: "justify",
+
+  "@media screen and (max-width: 768px)": {
+    lineHeight: "42px",
+  },
 }));
 
 export const BtnWrap = styled.div`
