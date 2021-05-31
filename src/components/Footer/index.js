@@ -57,7 +57,7 @@ const Footer = () => {
                 Videos
               </FooterLink>
               <FooterLink href="https://undraw.co" target="_blank">
-                Illustration
+                Illustrations
               </FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
