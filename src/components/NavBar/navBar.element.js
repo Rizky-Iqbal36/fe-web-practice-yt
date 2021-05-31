@@ -41,7 +41,13 @@ export const NavLogo = styled.a`
   font-size: 28px;
   font-weight: bold;
 
+  @media screen and (max-width: 920px) {
+    width: 25%;
+    /* background-color: white; */
+  }
+
   @media screen and (max-width: 768px) {
+    width: 100%;
     margin-top: -15px;
   }
 
@@ -72,7 +78,12 @@ export const NavMenu = styled.ul`
   text-align: center;
   margin-left: -285px;
 
+  @media screen and (max-width: 920px) {
+    margin-left: -100px;
+  }
+
   @media screen and (max-width: 768px) {
+    margin-left: -285px;
     display: none;
   }
 `;

@@ -73,12 +73,21 @@ export const OnomatopoeiaCard = styled.a`
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 480px) {
+    padding: 70px 60px;
+  }
 `;
 
 export const OnomatopoeiaIcon = styled.img`
   height: 160px;
   width: 160px;
   margin-bottom: 10px;
+
+  @media screen and (max-width: 480px) {
+    height: 80px;
+    width: 80px;
+  }
 `;
 
 export const OnomatopoeiaH2 = styled.h2`

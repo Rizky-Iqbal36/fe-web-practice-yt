@@ -64,9 +64,14 @@ export const HeroH1 = styled.h1`
   font-size: 42px;
   text-align: center;
   margin-top: 20px;
+  word-break: break-all;
 
   @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 38px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
   }
 `;
 

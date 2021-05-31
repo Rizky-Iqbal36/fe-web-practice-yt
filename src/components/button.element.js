@@ -22,6 +22,11 @@ export const Button = styled.a((props) => ({
     color: props.dark ? "#fff" : "#010606",
   },
 
+  "@media screen and (max-width: 768px)": {
+    fontSize: props.fontBig ? "28px" : "24px",
+    padding: props.big ? "22px 56px" : "17px 48px",
+  },
+
   "@media screen and (max-width: 480px)": {
     fontSize: props.fontBig ? "24px" : "20px",
     padding: props.big ? "20px 48px" : "16px 42px",
