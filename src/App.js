@@ -7,7 +7,7 @@ import NavBar from "./components/NavBar";
 import SideBar from "./components/SideBar";
 
 import Home from "./pages";
-// import IndonesiPage from "./pages/indonesia";
+import { HomeObj } from "./components/InfoSection/data";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <SideBar isOpen={isOpen} toggle={toggle} />
-      <NavBar toggle={toggle} />
+      <NavBar toggle={toggle} HomeObj={HomeObj} />
       <Switch>
         <Route path="/" component={Home} exact />
         {/* <Route path="/indonesia" component={IndonesiPage} exact /> */}

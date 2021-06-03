@@ -104,11 +104,11 @@ export const NavLinks = styled.a`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    border-bottom: 5px solid #01bf71;
+    color: #01bf71;
   }
 
   &.active {
-    color: #01bf71;
+    border-bottom: 5px solid #01bf71;
   }
 `;
 

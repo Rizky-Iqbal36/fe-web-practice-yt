@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { FaTimes } from "react-icons/fa";
 import { Link as LinkR } from "react-router-dom";
-// import { Link as LinkS } from "react-scroll";
 
 export const SideBarContainer = styled.aside((props) => ({
   position: "fixed",
@@ -15,7 +14,6 @@ export const SideBarContainer = styled.aside((props) => ({
   transition: "0.3s ease-in-out",
   opacity: props.isOpen ? "100%" : "0",
   top: props.isOpen ? "0" : "-100%",
-  // top: 0,
 }));
 
 export const CloseIcon = styled(FaTimes)`

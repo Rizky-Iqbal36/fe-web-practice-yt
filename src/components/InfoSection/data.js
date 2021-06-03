@@ -20,6 +20,7 @@ export const HomeObj = [
     padding: 172,
     goto: "https://en.wikipedia.org/wiki/Nyan_Cat",
     section: "#home",
+    offsetTop: 566,
   },
   {
     id: "china",
@@ -41,6 +42,7 @@ export const HomeObj = [
     padding: 174,
     goto: "https://chinachannel.org/2018/03/20/meowing-in-mandarin/",
     section: "#japan",
+    offsetTop: 1188,
   },
   {
     id: "urdu",
@@ -62,6 +64,7 @@ export const HomeObj = [
     padding: 189,
     goto: "https://hamariweb.com/dictionaries/meowing_urdu-meanings.aspx",
     section: "#china",
+    offsetTop: 1811,
   },
   {
     id: "rusia",
@@ -82,5 +85,6 @@ export const HomeObj = [
     padding: 191,
     goto: "https://about.imtranslator.net/onomatopoeia-in-russian-language/",
     section: "#urdu",
+    offsetTop: 2451,
   },
 ];
