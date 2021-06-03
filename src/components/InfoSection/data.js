@@ -1,4 +1,3 @@
-//https://www.boredpanda.com/animal-sounds-different-languages-james-chapman/?utm_source=google&utm_medium=organic&utm_campaign=organic
 export const HomeObj = [
   {
     id: "japan",
