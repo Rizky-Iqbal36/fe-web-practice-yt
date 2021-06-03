@@ -39,13 +39,7 @@ const NavBar = ({ toggle, HomeObj }) => {
       }
 
       let currentSectionOffsetTop = HomeObj[index].offsetTop;
-      console.log(
-        currentSectionOffsetTop,
-        currentPosition,
-        nextSectionOffsetTop,
-        link.hash
-        // mainNavLinks[index].hash
-      );
+
       if (
         currentPosition >= currentSectionOffsetTop &&
         currentPosition < nextSectionOffsetTop
