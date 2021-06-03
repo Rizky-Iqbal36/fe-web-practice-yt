@@ -83,7 +83,7 @@ export const SocialMediaWrap = styled.div`
   }
 `;
 
-export const SocialLogo = styled.a`
+export const SocialLogo = styled.div`
   color: #fff;
   justify-self: start;
   cursor: pointer;

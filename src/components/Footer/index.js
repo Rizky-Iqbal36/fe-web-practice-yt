@@ -100,7 +100,13 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo href="#home">Stardenburdenhardenbart</SocialLogo>
+            <SocialLogo
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+            >
+              Stardenburdenhardenbart
+            </SocialLogo>
             <WebsiteRights>
               Stardenburdenhardenbart © {new Date().getFullYear()} All rights
               reserved.

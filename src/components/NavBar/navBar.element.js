@@ -29,7 +29,7 @@ export const NavBarContainer = styled.div`
   max-width: 1700px;
 `;
 
-export const NavLogo = styled.a`
+export const NavLogo = styled.div`
   color: #50c878;
   justify-self: flex-start;
   cursor: pointer;

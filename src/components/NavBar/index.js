@@ -54,7 +54,13 @@ const NavBar = ({ toggle, HomeObj }) => {
     <>
       <Nav scrollNav={scrollNav} id="navbar">
         <NavBarContainer>
-          <NavLogo href="#home">Stardenburdenhardenbart</NavLogo>
+          <NavLogo
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+          >
+            Stardenburdenhardenbart
+          </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
