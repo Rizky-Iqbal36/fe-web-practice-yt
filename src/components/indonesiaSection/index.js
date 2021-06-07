@@ -28,17 +28,15 @@ const IndonesiaSection = () => {
             <Content>
               <ContentH1>Indonesia - Meong</ContentH1>
               <IndonesiaIcon src={IndonesiaImage} />
-              <Text>Ya saya pribadi sih dengarnya meong atau nguarn</Text>
-              <ModalButton onClick={handleShow}>
-                Pelajari lebih lanjut
-              </ModalButton>
+              <Text>I personally heard it meong</Text>
+              <ModalButton onClick={handleShow}>Learn more</ModalButton>
             </Content>
           </ContentWrapper>
         </FormWrap>
       </Container>
       <ModalThink show={showAlert} onHide={handleClose}>
-        <p>Ya dipikirlah itu kucing suaranya kek apa</p>
-        <p>ga mungkin juga kan suaranya kek kura-kura</p>
+        <p>Think about it, what's the sound of a cat?</p>
+        <p>why other people over the world hear it different?</p>
       </ModalThink>
     </>
   );
