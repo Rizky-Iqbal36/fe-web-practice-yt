@@ -105,6 +105,7 @@ export const NavLinks = styled.a`
   &:hover {
     transition: all 0.2s ease-in-out;
     color: #01bf71;
+    text-decoration: none;
   }
 
   &.active {
@@ -138,5 +139,6 @@ export const NavBtnLink = styled(LinkR)`
     transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
+    text-decoration: none;
   }
 `;

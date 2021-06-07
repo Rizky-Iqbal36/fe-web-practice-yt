@@ -79,7 +79,7 @@ const NavBar = ({ toggle, HomeObj }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="#indonesia">Meong</NavBtnLink>
+            <NavBtnLink to="/indonesia">Meong</NavBtnLink>
           </NavBtn>
         </NavBarContainer>
       </Nav>

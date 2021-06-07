@@ -64,6 +64,7 @@ export const FooterLink = styled.a`
   &:hover {
     color: #01bf71;
     transition: 0ms.2s ease-in-out;
+    text-decoration: none;
   }
 `;
 
@@ -125,4 +126,8 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 42px;
+
+  &:hover {
+    color: #50c878;
+  }
 `;

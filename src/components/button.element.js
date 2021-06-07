@@ -20,6 +20,7 @@ export const Button = styled.a((props) => ({
     transition: "all 0.2s ease-in-out",
     background: props.primary ? "#010606" : "#01BF71",
     color: props.dark ? "#fff" : "#010606",
+    textDecoration: "none",
   },
 
   "@media screen and (max-width: 768px)": {
@@ -37,10 +38,14 @@ export const TextButton = styled.a((props) => ({
   fontSize: `${props.fontSize}rem` || null,
   cursor: "pointer",
   textDecoration: "none",
-  color: props.isHover ? "#50c878" : props.lightText ? "#f7f8fa" : "#010606",
+  color: props.lightText ? "#f7f8fa" : "#010606",
   marginTop: "-120px",
   marginBottom: "40px",
 
+  ":hover": {
+    color: "#50c878",
+    textDecoration: "none",
+  },
   "@media screen and (max-width: 480px)": {
     fontSize: `${props.fontSize - 0.5}rem` || null,
   },

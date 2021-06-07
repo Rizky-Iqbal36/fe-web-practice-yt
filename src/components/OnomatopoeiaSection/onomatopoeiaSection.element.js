@@ -72,6 +72,8 @@ export const OnomatopoeiaCard = styled.a`
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    text-decoration: none;
+    color: #000;
   }
 
   @media screen and (max-width: 480px) {
@@ -95,6 +97,7 @@ export const OnomatopoeiaH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
   width: 130%;
+  font-weight: 700;
 `;
 
 export const OnomatopoeiaP = styled.p`

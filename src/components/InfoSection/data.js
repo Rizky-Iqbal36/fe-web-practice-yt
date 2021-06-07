@@ -18,7 +18,7 @@ export const HomeObj = [
     darkText: false,
     padding: 172,
     goto: "https://en.wikipedia.org/wiki/Nyan_Cat",
-    section: "#home",
+    section: "/indonesia",
     offsetTop: 566,
   },
   {

@@ -7,6 +7,8 @@ import NavBar from "./components/NavBar";
 import SideBar from "./components/SideBar";
 
 import Home from "./pages";
+import IndonesiPage from "./pages/indonesia";
+
 import { HomeObj } from "./components/InfoSection/data";
 
 function App() {
@@ -20,7 +22,7 @@ function App() {
       <NavBar toggle={toggle} HomeObj={HomeObj} />
       <Switch>
         <Route path="/" component={Home} exact />
-        {/* <Route path="/indonesia" component={IndonesiPage} exact /> */}
+        <Route path="/indonesia" component={IndonesiPage} exact />
       </Switch>
     </Router>
   );

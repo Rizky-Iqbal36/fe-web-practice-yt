@@ -1,10 +1,11 @@
 import React from "react";
+import IndonesiaSection from "../components/indonesiaSection";
 
 const IndonesiPage = () => {
   return (
-    <div style={{ marginTop: "80px" }}>
-      <h1>Indonesia page here</h1>
-    </div>
+    <>
+      <IndonesiaSection />
+    </>
   );
 };
 
