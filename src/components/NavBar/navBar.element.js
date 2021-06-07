@@ -40,10 +40,10 @@ export const NavLogo = styled.div`
   word-break: break-all;
   font-size: 28px;
   font-weight: bold;
+  margin-top: -20px;
 
   @media screen and (max-width: 920px) {
     width: 25%;
-    /* background-color: white; */
   }
 
   @media screen and (max-width: 768px) {
