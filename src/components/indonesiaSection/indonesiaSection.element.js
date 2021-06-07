@@ -71,7 +71,12 @@ export const Content = styled.div`
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
+  @media screen and (max-width: 768px) {
+    height: 60%;
+  }
+
   @media screen and (max-width: 400px) {
+    height: 70%;
     padding: 32px 32px;
   }
 `;
