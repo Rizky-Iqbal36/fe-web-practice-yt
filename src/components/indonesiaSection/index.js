@@ -28,7 +28,7 @@ const IndonesiaSection = () => {
             <Content>
               <ContentH1>Indonesia - Meong</ContentH1>
               <IndonesiaIcon src={IndonesiaImage} />
-              <Text>I personally heard it meong</Text>
+              <Text>I personally heard it meong or ngeong</Text>
               <ModalButton onClick={handleShow}>Learn more</ModalButton>
             </Content>
           </ContentWrapper>
