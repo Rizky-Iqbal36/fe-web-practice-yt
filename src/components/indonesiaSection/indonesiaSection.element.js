@@ -29,7 +29,7 @@ export const FormWrap = styled.div`
 `;
 
 export const Icon = styled(Link)`
-  margin: 27px 0 32px 45px;
+  margin: 24px 0 32px 45px;
   text-decoration: none;
   color: #fff;
   font-weight: bold;

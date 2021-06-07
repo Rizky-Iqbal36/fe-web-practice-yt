@@ -32,7 +32,7 @@ const SideBar = ({ isOpen, toggle }) => {
           </SideBarLink>
         </SideBarMenu>
         <SideBarBtnWrap>
-          <SideBarRoute to="/indonesia">meong</SideBarRoute>
+          <SideBarRoute to="/indonesia">Meong</SideBarRoute>
         </SideBarBtnWrap>
       </SideBarWrapper>
     </SideBarContainer>
