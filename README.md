@@ -2,8 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Youtube [Link](https://www.youtube.com/watch?v=Nl54MJDR2p8&t=1776s)
-Live on this [Link](https://q-gabut.netlify.app/)
+Youtube [Link](https://www.youtube.com/watch?v=Nl54MJDR2p8&t=1776s) <br />
+This project is Live on this [Link](https://q-gabut.netlify.app/)
 
 ## Bibliography
 
