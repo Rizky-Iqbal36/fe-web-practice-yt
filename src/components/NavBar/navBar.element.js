@@ -3,7 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 
 export const Nav = styled.nav((props) => ({
   background: props.scrollNav ? "#000" : "transparent",
-  transition: "0.8 all ease",
+  transition: "0.8 all ease-in-out",
   height: "80px",
   marginTop: "-80px",
   display: "flex",
@@ -15,7 +15,7 @@ export const Nav = styled.nav((props) => ({
   zIndex: 10,
 
   "@media screen and (max-width: 960px)": {
-    transition: "0.8 all ease",
+    transition: "0.8 all ease-in-out",
   },
 }));
 

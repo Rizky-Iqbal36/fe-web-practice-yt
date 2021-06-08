@@ -38,7 +38,7 @@ const IndonesiaSection = () => {
         <p>Think about it, what's the sound of a cat?</p>
         <p>why other people over the world hear it different?</p>
         <p>
-          it also applies to other animals such as chickens, dogs and others
+          It also applies to other animals such as chickens, dogs and others
         </p>
       </ModalThink>
     </>
